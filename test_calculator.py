@@ -17,5 +17,7 @@ def test_divide_uneven():
 	result = divide(a, b)
 	assert result == 2.5
 
+from calculator import CircleArea
+
 def test_circleArea():
 	assert CircleArea(-4) =="Error"
